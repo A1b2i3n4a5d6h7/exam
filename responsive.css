@@ -1,59 +1,52 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    p{
-        font-size: 12px;
-        font-style: italic;
-    }
+.sidebar{
+    height: 750px;
 }
-@media (max-width:766px) {
-    .frst{
+
+.sidebar a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.btn{
+    height: 80px;
+}
+
+.bannr{
+    background-image: url(./images/pexels-pixabay-220116.jpg);
+    height: 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.profile h3{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.text p{
+    font-size: small;
+    
+}
+
+@media (width < 769px) {
+    .sidebar{
         height: 100%;
     }
+
+    .main a{
+        padding-bottom: 4px;
+        border-bottom: 2px solid rgb(238, 78, 78);
+    }
+
+    .bannr{
+        height: 30%;
+        width: 100%;
+    }
     
+
 }
-
-.frst{
- height: 100vh;
-
-    background-color: brown;
-}
-
-.txt-lst li{
-    list-style: none;
-    text-align: center;
-    border-bottom: 1px solid rgb(116, 113, 113);
-    
-   
-}
-
-.scnd{
-    height: 100vh;
-}
-
-.btn-div{
-
-    text-align: center;
-}
-
-.btn{
-    border: 1px solid red;
-    color:red;
-    font-weight: 500;
-    font-style: bold;
-    padding-left: 30%;
-    padding-right: 30%;
-    
-}
-
-
-
-.b-img{
-    
-    height: 30vh;
-    width:100%;
-    
-    border-radius: 20px;
-}
-
